@@ -3,7 +3,7 @@
 int main() {
 int units, total_bill_amount, bill_amount1, bill_amount2, bill_amount3;
 
-printf("Units of electricity used : ");
+printf("Units of electricity used : \n");
 scanf("%lf", &units);
 
 if(units =< 50) {
@@ -19,7 +19,14 @@ total_bill_amount = bill_amount1 + bill_amount2 + bill_amount3;
 
 if(total_bill_amount > 300)
 {
-  printf("Total Bill Amount = 
+  printf("Total Bill Amount = %lf \n", (10% + total_bill_amount) );
+}
+  else 
+  {
+    printf("Total Bill Amount = %lf \n", total_bill_amount );
+  }
+  return 0;
+}
          
          
          
