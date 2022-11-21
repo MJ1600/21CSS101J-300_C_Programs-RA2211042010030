@@ -11,7 +11,7 @@ int main()
     printf("The score Amala wants = ");
     scanf("%d", &Y);
     
-    if((N*X) <= Y)
+    if((N*X) != Y)
     {
         printf("Yes\n");
     }
