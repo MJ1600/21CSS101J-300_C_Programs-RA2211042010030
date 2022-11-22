@@ -8,6 +8,7 @@ void main()
   scanf("%d",&a);     
 
 	if(a > 0)     
+		
 
 	{        
 		 printf("Given Number is Positive");     
